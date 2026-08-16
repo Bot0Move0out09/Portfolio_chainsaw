@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio</title>
+
+    <link href="https://fonts.cdnfonts.com/css/public-pixel" rel="stylesheet">
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: linear-gradient(135deg, #180000, #450000, #100000);
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 85%;
+            max-width: 1000px;
+            margin: 60px auto;
+            background: rgba(20, 0, 0, 0.9);
+            padding: 40px;
+            border-radius: 20px;
+            border: 2px solid #ff1a1a;
+            box-shadow: 0 0 30px rgba(255, 0, 0, 0.5);
+        }
+
+        h1 {
+            font-family: 'Public Pixel', sans-serif;
+            font-size: 42px;
+            color: #ff3333;
+            text-shadow: 0 0 15px red;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-family: 'Public Pixel', sans-serif;
+            color: #ff4444;
+            margin-top: 35px;
+        }
+
+        .intro {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .profile-img {
+            width: 220px;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 20px;
+            border: 4px solid #ff2222;
+            box-shadow: 0 0 20px red;
+        }
+
+        .hello {
+            font-family: 'Public Pixel', sans-serif;
+            color: #ff7777;
+            font-size: 20px;
+        }
+
+        .info p {
+            font-size: 17px;
+            margin: 12px 0;
+        }
+
+        .highlight {
+            color: #ff4444;
+            font-weight: bold;
+        }
+
+        .summary {
+            background: #240000;
+            padding: 25px;
+            border-left: 5px solid #ff2222;
+            border-radius: 10px;
+            line-height: 1.7;
+            font-size: 16px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 15px;
+        }
+
+        .skill {
+            background: #ff2222;
+            padding: 10px 18px;
+            border-radius: 20px;
+            font-weight: bold;
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #888;
+        }
+
+        @media (max-width: 700px) {
+
+            .intro {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .container {
+                width: 92%;
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="intro">
+
+            <img 
+                class="profile-img"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpsHrvVqDIyG5oC7dv6j_iwdU4xSO9h3tYdVbdKxI59Q&s=10"
+                alt="Profile Image"
+            >
+
+            <div>
+
+                <div class="hello">Wassup! 👋😪</div>
+
+                <h1>My Portfolio</h1>
+
+                <div class="info">
+                    <p><span class="highlight">Name:</span> Shobhit Mahananda</p>
+
+                    <p><span class="highlight">Course:</span> Computer Science (Hons)</p>
+
+                    <p><span class="highlight">Year:</span> 1st Year</p>
+
+                    <p><span class="highlight">Hobbies:</span> Reading & Exploring Technology</p>
+
+                    <p><span class="highlight">Skills:</span> Programming & Problem Solving</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <h2>Resume Summary</h2>
+
+        <div class="summary">
+
+            I am a first-year Computer Science (Hons) student with an interest
+            in programming, technology, and problem solving. I enjoy learning
+            new concepts in computer science and developing my technical skills
+            through practical projects. I am a curious and motivated learner
+            who enjoys exploring new technologies and improving my programming
+            abilities. My goal is to continuously develop my skills and gain
+            practical experience in the field of computer science.
+
+        </div>
+
+
+        <h2>My Skills</h2>
+
+        <div class="skills">
+
+            <div class="skill">Programming</div>
+            <div class="skill">Problem Solving</div>
+            <div class="skill">HTML</div>
+            <div class="skill">Python</div>
+            <div class="skill">Computer Science</div>
+
+        </div>
+
+
+        <footer>
+            © 2026 Shobhit Mahananda | My Portfolio
+        </footer>
+
+    </div>
+
+</body>
+</html>
